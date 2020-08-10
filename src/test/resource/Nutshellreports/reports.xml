@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="23.767988">
+<testcase classname="Creating and publishing a basic app in nutshell" name="Verify user can login and Create new app in nutshell" time="15.574076">
+<system-out><![CDATA[Given User launch the nutshell application..................................passed
+When user enters "saranya25sep88@gmail.com" and "Saranya009$$" and click Login button.passed
+And user click app button and create app in Login page......................passed
+And user gives "hellooworld" as screen name and click create button in create new app.passed
+And User selects smartphone, portrait and yes in device settings and click confirm in device settings page.passed
+Then user verify the username displayed in homepage.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Creating and publishing a basic app in nutshell" name="Verify user create screen component in home page" time="5.035628">
+<system-out><![CDATA[Given User clicks screen icon...............................................passed
+When User drag and drop screen component on to the canvas page..............passed
+And user edit the screen name as "Startscreen" in Label control.............passed
+And user clicks set as start screen in Behaviour control....................passed
+And user click upload image from Background image dropdrown in styling control.passed
+And user click save button..................................................passed
+Then user verify the file name displayed under styling control in screen properties pannel.passed
+]]></system-out>
+</testcase>
+<testcase classname="Creating and publishing a basic app in nutshell" name="Verify user add title to the screen" time="3.158284">
+<system-out><![CDATA[Given user clicks visuals in essential component............................passed
+And user drag and drop text component on to the screen......................passed
+]]></system-out>
+</testcase>
+</testsuite>

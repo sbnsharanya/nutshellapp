@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can login and Create new app in nutshell",
+        "description": "",
+        "id": "creating-and-publishing-a-basic-app-in-nutshell;verify-user-can-login-and-create-new-app-in-nutshell",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2910601600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the nutshell application",
+            "match": {
+              "location": "NutshellStepdefiniton.user_launch_the_nutshell_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1735592200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"saranya25sep88@gmail.com\" and \"Saranya009$$\" and click Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saranya25sep88@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Saranya009$$",
+                  "offset": 44
+                }
+              ],
+              "location": "NutshellStepdefiniton.user_enters_and_and_click_Login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2963005600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click app button and create app in Login page",
+            "match": {
+              "location": "NutshellStepdefiniton.user_click_app_button_and_create_app_in_Login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1532829800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user gives \"hellooworld\" as screen name and click create button in create new app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hellooworld",
+                  "offset": 12
+                }
+              ],
+              "location": "NutshellStepdefiniton.user_gives_as_screen_name_and_click_create_button_in_create_new_app(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829166300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects smartphone, portrait and yes in device settings and click confirm in device settings page",
+            "match": {
+              "location": "NutshellStepdefiniton.user_selects_smartphone_portrait_and_yes_in_device_settings_and_click_confirm_in_device_settings_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5602880600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify the username displayed in homepage",
+            "match": {
+              "location": "NutshellStepdefiniton.user_verify_the_username_displayed_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify user create screen component in home page",
+        "description": "",
+        "id": "creating-and-publishing-a-basic-app-in-nutshell;verify-user-create-screen-component-in-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271692100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks screen icon",
+            "match": {
+              "location": "NutshellStepdefiniton.user_clicks_screen_icon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693798100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User drag and drop screen component on to the canvas page",
+            "match": {
+              "location": "NutshellStepdefiniton.user_drag_and_drop_screen_component_on_to_the_canvas_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1145730600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user edit the screen name as \"Startscreen\" in Label control",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Startscreen",
+                  "offset": 30
+                }
+              ],
+              "location": "NutshellStepdefiniton.user_edit_the_screen_name_as_in_Label_control(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934520700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks set as start screen in Behaviour control",
+            "match": {
+              "location": "NutshellStepdefiniton.user_clicks_set_as_start_screen_in_Behaviour_control()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 703821500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click upload image from Background image dropdrown in styling control",
+            "match": {
+              "location": "NutshellStepdefiniton.user_click_upload_image_from_Background_image_dropdrown_in_styling_control()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216504200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click save button",
+            "match": {
+              "location": "NutshellStepdefiniton.user_click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69560900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verify the file name displayed under styling control in screen properties pannel",
+            "match": {
+              "location": "NutshellStepdefiniton.user_verify_the_image_name_displayed_in_screen_properties_pannel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify user add title to the screen",
+        "description": "",
+        "id": "creating-and-publishing-a-basic-app-in-nutshell;verify-user-add-title-to-the-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 830647800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks visuals in essential component",
+            "match": {
+              "location": "NutshellStepdefiniton.user_clicks_visuals_in_essential_component()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2327636200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user drag and drop text component on to the screen",
+            "match": {
+              "location": "NutshellStepdefiniton.user_drag_and_drop_text_component_on_to_the_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Creating and publishing a basic app in nutshell",
+    "description": "",
+    "id": "creating-and-publishing-a-basic-app-in-nutshell",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/nutshell/featurefile/Login.feature"
+  }
+]
