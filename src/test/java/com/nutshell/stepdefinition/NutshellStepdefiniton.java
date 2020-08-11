@@ -102,7 +102,7 @@ public class NutshellStepdefiniton extends BaseclassNutshell {
 		dropDownWithoutOption(nutshell.getScreen().getBackgroundimgbtn(), "Upload Image");
 		clickonElement(nutshell.getScreen().getUplodbtn());
 		try {
-			Runtime.getRuntime().exec("D:\\Fileupload.exe");
+			Runtime.getRuntime().exec("src\\test\\resource\\datafile\\Fileupload.exe");
 			Thread.sleep(2000);
 		}catch(IOException e) {
 			e.printStackTrace();			
