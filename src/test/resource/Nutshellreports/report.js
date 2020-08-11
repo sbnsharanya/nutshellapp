@@ -48,7 +48,7 @@ formatter.match({
   "location": "NutshellStepdefiniton.user_launch_the_nutshell_application()"
 });
 formatter.result({
-  "duration": 2910601600,
+  "duration": 3206641500,
   "status": "passed"
 });
 formatter.match({
@@ -65,14 +65,14 @@ formatter.match({
   "location": "NutshellStepdefiniton.user_enters_and_and_click_Login_button(String,String)"
 });
 formatter.result({
-  "duration": 1735592200,
+  "duration": 2407074400,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_click_app_button_and_create_app_in_Login_page()"
 });
 formatter.result({
-  "duration": 2963005600,
+  "duration": 3978676700,
   "status": "passed"
 });
 formatter.match({
@@ -85,21 +85,21 @@ formatter.match({
   "location": "NutshellStepdefiniton.user_gives_as_screen_name_and_click_create_button_in_create_new_app(String)"
 });
 formatter.result({
-  "duration": 1532829800,
+  "duration": 1808930100,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_selects_smartphone_portrait_and_yes_in_device_settings_and_click_confirm_in_device_settings_page()"
 });
 formatter.result({
-  "duration": 829166300,
+  "duration": 974174000,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_verify_the_username_displayed_in_homepage()"
 });
 formatter.result({
-  "duration": 5602880600,
+  "duration": 8174739400,
   "status": "passed"
 });
 formatter.scenario({
@@ -149,14 +149,14 @@ formatter.match({
   "location": "NutshellStepdefiniton.user_clicks_screen_icon()"
 });
 formatter.result({
-  "duration": 1271692100,
+  "duration": 1232559500,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_drag_and_drop_screen_component_on_to_the_canvas_page()"
 });
 formatter.result({
-  "duration": 693798100,
+  "duration": 758870200,
   "status": "passed"
 });
 formatter.match({
@@ -169,35 +169,35 @@ formatter.match({
   "location": "NutshellStepdefiniton.user_edit_the_screen_name_as_in_Label_control(String)"
 });
 formatter.result({
-  "duration": 1145730600,
+  "duration": 1453690700,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_clicks_set_as_start_screen_in_Behaviour_control()"
 });
 formatter.result({
-  "duration": 934520700,
+  "duration": 1118416100,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_click_upload_image_from_Background_image_dropdrown_in_styling_control()"
 });
 formatter.result({
-  "duration": 703821500,
+  "duration": 15204950300,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_click_save_button()"
 });
 formatter.result({
-  "duration": 216504200,
+  "duration": 307030500,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_verify_the_image_name_displayed_in_screen_properties_pannel()"
 });
 formatter.result({
-  "duration": 69560900,
+  "duration": 104270200,
   "status": "passed"
 });
 formatter.scenario({
@@ -222,14 +222,14 @@ formatter.match({
   "location": "NutshellStepdefiniton.user_clicks_visuals_in_essential_component()"
 });
 formatter.result({
-  "duration": 830647800,
+  "duration": 796111200,
   "status": "passed"
 });
 formatter.match({
   "location": "NutshellStepdefiniton.user_drag_and_drop_text_component_on_to_the_screen()"
 });
 formatter.result({
-  "duration": 2327636200,
+  "duration": 2386308200,
   "status": "passed"
 });
 });
