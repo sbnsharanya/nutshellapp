@@ -1,5 +1,6 @@
 package com.nutshell.stepdefinition;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -99,14 +100,17 @@ public class NutshellStepdefiniton extends BaseclassNutshell {
 	public void user_click_upload_image_from_Background_image_dropdrown_in_styling_control() throws Throwable {		
 		clickonElement(nutshell.getScreen().getStylingbtn());
 		dropDownWithoutOption(nutshell.getScreen().getBackgroundimgbtn(), "Upload Image");
-		WebElement uploadbtn = driver.findElement(By.id("screen_properties_img_upload"));	
-		String filePath = "src\\test\\resource\\datafile\\Generic-IMG-1.jpeg";
-		driver.switchTo().activeElement().sendKeys(filePath);
-		//uploadbtn.sendKeys(filePath);	
+		clickonElement(nutshell.getScreen().getUplodbtn());
+		try {
+			Runtime.getRuntime().exec("D:\\Fileupload.exe");
+			Thread.sleep(2000);
+		}catch(IOException e) {
+			e.printStackTrace();			
+		}Thread.sleep(5000);
 		}
 
 	@When("^user click save button$")
-	public void user_click_save_button() throws Throwable {
+	public void user_click_save_button() throws Throwable {		
 	    clickonElement(nutshell.getScreen().getSavebtn());		    
 	}      
 	
